@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(foodbackground.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+}
+h1{
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: auto;
+    color: orange;
+    font-size: 100px;
+}
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.clicked {
+    color: green;
+    font-size: 70px ;
+    background-color: yellow;
+    animation: slide 2s ease;
+}
+@keyframes slide{
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
